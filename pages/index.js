@@ -1,8 +1,10 @@
+import Link from 'next/link'
+
 export default function Main({ data }) {
   return (
-      <p>
+      <Link href="/">
       {data['funni']}
-      </p>
+      </Link>
   )
 }
 
